@@ -1,0 +1,265 @@
+[31-Jan-2016 23:35:09] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/gladi279/public_html/projects/dirsys/_dirSys/class/dirSys.class.php on line 145
+[31-Jan-2016 23:35:12] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/gladi279/public_html/projects/dirsys/_dirSys/class/dirSys.class.php on line 145
+[31-Jan-2016 23:39:01] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 7
+[31-Jan-2016 23:39:19] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 7
+[31-Jan-2016 23:39:47] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 6
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:14 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:19 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:33 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:40 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:42:54 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:08 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:43:09 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[31-Jan-2016 23:48:00] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 6
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[01-Feb-2016 01:52:31 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[01-Feb-2016 00:09:23] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 5
+[01-Feb-2016 00:10:25] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 5
+[01-Feb-2016 00:10:52] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/gladi279/public_html/projects/dirsys/index.php on line 5
