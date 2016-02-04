@@ -6,14 +6,28 @@ class dirSys {
 
     private $basePath;
     private $path;
+    private $excludePath = array();
 
     public function __construct() {
         $this->basePath = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
 
         $this->rewriterTest();
-
+        
+        $this->addExcludePath('.');
+        $this->addExcludePath('..');
+        $this->addExcludePath(self::DIRSYSNAME);
+        $this->addExcludePath('index.php');
+        $this->addExcludePath('.htaccess');
+    }
+    
+    public function addExcludePath($path){
+        if(preg_match('/[áàãâäéèêëíìîïóòõôöúùûüç\w\/\.]+/i', $path ) !== false){
+            array_push($this->excludePath, $path);
+        }
+    }
+    
+    public function getFiles(){
         $this->setHeader();
-
         $this->showFiles();
     }
 
@@ -24,13 +38,7 @@ class dirSys {
                 $files = array();
                 while (($file = readdir($dirObj)) !== false) {
                     if ($this->path == $this->getBasePath()) {
-                        if (
-                                (self::DIRSYSNAME != $file) &&
-                                ($file != '.') &&
-                                ($file != '..') &&
-                                ($file != 'index.php') &&
-                                ($file != '.htaccess')
-                        ) {
+                        if (!$this->isExclude($file)) {
                             array_push($files, $file);
                         }
                     } else if ($file != '.') {
@@ -39,6 +47,15 @@ class dirSys {
                 }
                 return $files;
             }
+        }
+    }
+    
+    private function isExclude($file){
+        $uri = str_replace($this->getBasePath(), '', $this->path).$file;
+        if(array_search($uri, $this->excludePath) !== false){
+            return true;
+        } else {
+            return false;
         }
     }
 
@@ -118,7 +135,35 @@ class dirSys {
         $icons = array(
             'default' => 'fa-file-o',
             'folder' => 'fa-folder-o',
-            'folderBack' => 'fa-level-up'
+            'folderBack' => 'fa-level-up',
+            'xls' => 'fa-file-excel-o',
+            'xlsx' => 'fa-file-excel-o',
+            'csv' => 'fa-file-excel-o',
+            'doc' => 'fa-file-word-o',
+            'docx' => 'fa-file-word-o',
+            'txt' => 'fa-file-text-o',
+            'pdf' => 'fa-file-pdf-o',
+            'zip' => 'fa-file-archive-o',
+            'jpg' => 'fa-file-image-o',
+            'jpeg' => 'fa-file-image-o',
+            'png' => 'fa-file-image-o',
+            'bmp' => 'fa-file-image-o',
+            'png' => 'fa-file-image-o',
+            'gif' => 'fa-file-image-o',
+            'wav' => 'fa-file-audio-o',
+            'mp3' => 'fa-file-audio-o',
+            'flac' => 'fa-file-audio-o',
+            'm4a' => 'fa-file-audio-o',
+            'php' => 'fa-file-code-o',
+            'htm' => 'fa-file-code-o',
+            'html' => 'fa-file-code-o',
+            'js' => 'fa-file-code-o',
+            'css' => 'fa-file-code-o',
+            'xml' => 'fa-file-code-o',
+            'ppt' => 'fa-file-powerpoint-o',
+            'pptx' => 'fa-file-powerpoint-o',
+            'mp4' => 'fa-file-video-o',
+            'avi' => 'fa-file-video-o'
         );
 
         if (isset($icons[$icon])) {
