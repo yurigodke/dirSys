@@ -12,18 +12,22 @@ class dirSys {
         $this->basePath = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
 
         $this->rewriterTest();
-        
-        $this->addExcludePath('.');
-        $this->addExcludePath('..');
-        $this->addExcludePath(self::DIRSYSNAME);
-        $this->addExcludePath('index.php');
-        $this->addExcludePath('.htaccess');
+
+        $this->addExcludePath([
+			'.',
+			'..',
+			self::DIRSYSNAME,
+			'index.php',
+			'.htaccess'
+		]);
     }
-    
-    public function addExcludePath($path){
-        if(preg_match('/[áàãâäéèêëíìîïóòõôöúùûüç\w\/\.]+/i', $path ) !== false){
-            array_push($this->excludePath, $path);
-        }
+
+    public function addExcludePath($path = array()){
+		foreach ($path as $pathItem) {
+			if(preg_match('/[áàãâäéèêëíìîïóòõôöúùûüç\w\/\.]+/i', $pathItem ) !== false){
+				array_push($this->excludePath, $pathItem);
+			}
+		}
     }
     
     public function getFiles(){
