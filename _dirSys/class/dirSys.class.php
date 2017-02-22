@@ -72,7 +72,8 @@ class dirSys {
                     $element = $this->setElement($file, 'folder');
                 }
             } else {
-                $ext = end(explode('.', $file));
+				$fileSplit = explode('.', $file);
+                $ext = end($fileSplit);
                 $element = $this->setElement($file, $ext);
             }
             echo $element;
