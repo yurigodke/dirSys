@@ -21,7 +21,7 @@ $ds->addExcludePath([
 
 **Versions**
 
-v0.0.9 - release: 22/02/2017
+v0.9.0 - release: 22/02/2017
 
 Change log:
 - First release
